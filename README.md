@@ -1,6 +1,6 @@
 
 
-### **1.3 Introduction to the Intel Open FPGA Stack**
+### **1.3 Introduction to the Intel Open FPGA Stack** {{ .Now.Year }}
 <a name="Intro_to_IOFS"></a>
 
 The Intel Open FPGA Stack (Intel <span title="Open FPGA Stack"><font color='red'>**OFS**</font></span>) is a modular collection of hardware
