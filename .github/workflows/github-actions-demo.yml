@@ -22,8 +22,7 @@ jobs:
       with:
          GLOBAL_TEMPLATE_REPOSITORY: ${{ env.REPOSITORY_OWNER }}/${{ env.REPOSITORY_FULL_NAME }}
          files: |
-            FILE.md
-            FILE2.md=output_filename.md
-            folder1/file.md=folder2/output.md
+            README.md
       env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          IOFS_VeSION: 2.3.1
