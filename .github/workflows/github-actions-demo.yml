@@ -1,6 +1,3 @@
-- name: Variables in Markdown
-  uses: bdougie/variables-in-markdown@v1.0.0
-
 on: issues
 name: Template Variables in Markdown
 jobs:
