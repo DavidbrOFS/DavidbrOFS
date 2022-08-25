@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  update_templates:
+  markdown:
     name: "Update Templates"
     runs-on: ubuntu-latest
     steps:
@@ -15,4 +15,3 @@ jobs:
     - uses: bdougie/variables-in-markdown@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        IOFS_VERSION: 2.3.1
