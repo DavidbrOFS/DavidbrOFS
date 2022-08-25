@@ -15,4 +15,4 @@ jobs:
     - uses: bdougie/variables-in-markdown@master
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        IOFS_VERSION: ${{ 2.3.1 }}
+        IOFS_VERSION: 2.3.1
