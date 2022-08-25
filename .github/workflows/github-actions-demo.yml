@@ -20,7 +20,7 @@ jobs:
     - name: "💫  Dynamic Template Render"
       uses: varunsridharan/action-dynamic-readme@main
       with:
-         GLOBAL_TEMPLATE_REPOSITORY: {repository-owner}/{repository-name}
+         GLOBAL_TEMPLATE_REPOSITORY: ${{ env.REPOSITORY_OWNER }}/${{ env.REPOSITORY_FULL_NAME }}
          files: |
             FILE.md
             FILE2.md=output_filename.md
