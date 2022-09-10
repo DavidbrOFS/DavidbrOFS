@@ -1,6 +1,16 @@
-<img id="Image-Maps-Com-image-maps-2022-09-01-165654" src="https://www.intel.com/content/dam/www/public/us/en/images/programmable/rwd/open-fpga-stack-rwd.jpg.rendition.intel.web.978.550.jpg" border="0" width="978" height="550" orgWidth="978" orgHeight="550" usemap="#image-maps-2022-09-01-165654" alt="" />
-<map name="image-maps-2022-09-01-165654" id="ImageMapsCom-image-maps-2022-09-01-165654">
-<area  alt="" title="" href="https://github.com/otcshare/intel-ofs-fim" shape="rect" coords="202,293,564,465" style="outline:none;" target="_self"     />
-<area  alt="" title="" href="https://github.com/otcshare/intel-ofs-docs" shape="rect" coords="232,51,594,223" style="outline:none;" target="_self"     />
-<area shape="rect" coords="976,548,978,550" alt="Image Map" style="outline:none;" title="Image Map" href="https://www.image-maps.com/" />
-</map>
+ 
+```mermaid
+flowchart  TB;
+    A[Go to Github]-->B[Go to Intel];
+    B[Go to Intel]-->C[go To AFU UG];
+    C[go To AFU UG]]-->D[Go To OIntel ofs Docs ];
+    D[Go To OIntel ofs Docs ]-->A[Go to Github]
+
+    click B "http://www.github.com"
+    click C "http://www.intel.com"
+    click A "https://github.com/otcshare/intel-ofs-docs/blob/main/d5005/dev_guides/AFU%20User%20Guide/AFU_User_Guide.md"
+    click D "https://github.com/otcshare/intel-ofs-docs"
+    
+    classDef default color:#fff,fill:#0071c5,stroke:#71c5,stroke-width:1px
+    classDef if color:#0071c5,fill:#fff,stroke:#0071c5,stroke-width:2px
+```
